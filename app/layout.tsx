@@ -1,15 +1,30 @@
-import "@syles/global.css"
+import "@styles/globals.css"
 import { describe } from "node:test"
 
 
-const export metadata = {
+export const  metadata = {
     tittle:"propmtopia",
     description:"Create and share AI prompts"
 }
 
-const RootLayout = () => {
+
+
+const RootLayout = ({ children }) => {
   return (
-    <div>RootLayout</div>
+   <html lang="en">
+    <body>
+        <div className="main">
+            <div className="gradient">                
+            </div>
+            
+        </div>
+
+        <main className="app">
+            {children}
+        </main>
+    </body>
+
+   </html>
   )
 }
 
