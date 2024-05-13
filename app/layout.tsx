@@ -1,26 +1,16 @@
-import "@styles/globals.css";
+import "@syles/global.css"
+import { describe } from "node:test"
 
-import React from 'react'
 
-const metadata = {
-  tittle:"promptopia",
-  description:"Generate % Share AI prompts ",
-};
+const export metadata = {
+    tittle:"propmtopia",
+    description:"Create and share AI prompts"
+}
 
 const RootLayout = () => {
   return (
-    <html lang='en'>
-      <div className="main">
-        <div className="gradient">
-
-        </div>
-      </div>
-
-      <main>
-        
-      </main>
-    </html>
+    <div>RootLayout</div>
   )
 }
 
-export default RootLayout;
+export default RootLayout
