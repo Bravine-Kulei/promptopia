@@ -1,4 +1,4 @@
-import React from "react";
+import Feed from "@components/Feed";
 
 const Home = () => {
   return (
@@ -13,7 +13,7 @@ const Home = () => {
         others get started.
       </p>
 
-      {/*feed section  */}
+      <Feed />
     </section>
   );
 };

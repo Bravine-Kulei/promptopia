@@ -1,6 +1,8 @@
 import "@styles/globals.css"
 import { describe } from "node:test"
 
+import Nav from "@components/Nav"
+
 
 export const  metadata = {
     tittle:"propmtopia",
@@ -20,6 +22,7 @@ const RootLayout = ({ children }) => {
         </div>
 
         <main className="app">
+            <Nav />
             {children}
         </main>
     </body>
